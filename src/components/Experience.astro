@@ -1,19 +1,13 @@
 ---
 import ExperienceItem from "./ExperienceItem.astro";
-const EXPERIENCIE = [
-  {
-    date: "Atualmente...",
-    title: "Desenvolvedor de Software",
-    company: "Hahn-Software",
-    description:
-      "Contribuo ativamente para o design, desenvolvimento e refinamento contínuo de soluções inovadoras para o projeto. Minhas tarefas também incluem revisões de código, testes e elaboração de documentação detalhada para garantir qualidade e usabilidade.",
-  },
-];
+import { getI18N } from "@/i18n";
+const { currentLocale } = Astro;
+const t = getI18N({ currentLocale });
 ---
 
 <ol class="relative mt-16">
   {
-    EXPERIENCIE.map((experiencie) => (
+    t.sections.experience.experiences.map((experiencie) => (
       <li class="">
         <ExperienceItem {...experiencie} />
       </li>

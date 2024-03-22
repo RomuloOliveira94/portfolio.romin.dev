@@ -1,5 +1,8 @@
 ---
-const currentYear = new Date().getFullYear()
+import { getI18N } from "@/i18n";
+const { currentLocale } = Astro;
+const t = getI18N({ currentLocale });
+const currentYear = new Date().getFullYear();
 ---
 
 <footer
@@ -10,17 +13,26 @@ const currentYear = new Date().getFullYear()
   >
     <span class="text-sm sm:text-center text-zinc-800/90 dark:text-zinc-200/90"
       >© {currentYear}
-      <a href="https://romin.dev.br/" class="hover:underline">Rômulo Augusto</a>.
+      <a href="https://romin.dev.br/" class="hover:underline">{t.dev}</a>.
     </span>
     <ul
       class="flex flex-wrap items-center mt-3 text-sm font-medium dark:text-white/90 sm:mt-0"
     >
       <li>
-        <a href="/#sobre" class="hover:underline me-4 md:me-6">Sobre mim</a>
+        <a href="/#sobre" class="hover:underline me-4 md:me-6"
+          >{t.footer.nav.about}</a
+        >
       </li>
       <li>
-        <a id="contacto" href="mailto:romuloffall@gmail.com" class="hover:underline"
-          >Contato</a
+        <a href="/#projetos" class="hover:underline me-4 md:me-6"
+          >{t.footer.nav.projects}</a
+        >
+      </li>
+      <li>
+        <a
+          id="contacto"
+          href={"mailto:"+t.email}
+          class="hover:underline">{t.footer.nav.contact}</a
         >
       </li>
     </ul>

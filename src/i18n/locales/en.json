@@ -1,0 +1,83 @@
+{
+  "dev": "Rômulo Oliveira",
+  "email": "romuloffall@gmail.com",
+  "header": {
+    "nav": {
+      "experience": "Experiência",
+      "projects": "Projetos",
+      "about": "Sobre mim",
+      "contact": "Contato"
+    },
+    "theme_title": "Tema"
+  },
+  "hero": {
+    "title": "Olá, sou Rômulo Oliveira",
+    "text": "+3 anos de experiência. Desenvolvedor de Software de Fortaleza, Brasil. Especializado no desenvolvimento de tecnologias web.",
+    "badge": "Disponível para Projetos",
+    "links": {
+      "contact": "Contato",
+      "linkedin": "LinkedIn",
+      "github": "Github",
+      "resume": "Currículo"
+    }
+  },
+  "sections": {
+    "experience": {
+      "title": "Experiência",
+      "experiences": [
+        {
+          "date": "Atualmente...",
+          "title": "Desenvolvedor de Software",
+          "company": "Hahn-Software",
+          "description": "Contribuo ativamente para o design, desenvolvimento e refinamento contínuo de soluções inovadoras para o projeto. Minhas tarefas também incluem revisões de código, testes e elaboração de documentação detalhada para garantir qualidade e usabilidade."
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projetos",
+      "projects": [
+        {
+          "title": "Cardápio Popular - Cardápio digital para restaurantes",
+          "description": "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
+          "link": "https://svgl.vercel.app/",
+          "github": "https://github.com/pheralb/svgl",
+          "image": "/projects/svgl.webp",
+          "tags": [
+            "TYPESCRIPT",
+            "ASTRO",
+            "TAILWIND",
+            "ALPINE",
+            "XATA",
+            "POSTGRESQL"
+          ]
+        },
+        {
+          "title": "Agenda Popular - Agendamento digital para pequenos e médios negócios",
+          "description": "Plataforma gratuita con retos de programación. Más de 1 millón de visitas en un mes. +50K retos completados. Creada desde cero con Next.js, React y Tailwind CSS.",
+          "link": "https://adventjs.dev",
+          "image": "/projects/adventjs.webp",
+          "tags": ["TYPESCRIPT", "NEXT", "TAILWIND", "PRISMA", "POSTGRESQL"]
+        }
+      ],
+      "buttons": {
+        "code": "Código",
+        "visit": "Visitar"
+      }
+    },
+    "about": {
+      "title": "Sobre",
+      "text_01": "Me chamo Rômulo Oliveira e iniciei minha carreira na programação em 2021. Atualmente trabalho como desenvolvedor de software freelancer de perfil empresarial.",
+      "text_02": "Sou responsável pelo desenvolvimento do <a href='#'>Cardápio Popular</a> e <a href='#'>Agenda Popular</a>, o primeiro um sistema de cardápio digital para restaurantes que conta com painel de gestão de pedidos e o segundo um sistema de agendamento de serviços para empresas de qualquer segmento.",
+      "text_03": "Além disso estou sempre buscando novos desafios e oportunidades para aplicar meus conhecimentos e desenvolver minhas habilidades como programador."
+    }
+  },
+  "footer": {
+    "text": "Desenvolvido por Rômulo Oliveira",
+    "nav": {
+      "home": "Início",
+      "projects": "Projetos",
+      "about": "Sobre",
+      "contact": "Contato"
+    }
+  }
+}

@@ -1,26 +1,29 @@
 ---
 import ThemeToggle from "./ThemeToggle.astro"
+import { getI18N } from "@/i18n";
+const { currentLocale } = Astro;
+const t = getI18N({ currentLocale });
 
 const navItems = [
   {
-    title: "Experiência",
-    label: "experiência",
+    title: t.header.nav.experience,
+    label: t.header.nav.experience.toLowerCase(),
     url: "/#experiencia",
   },
   {
-    title: "Projetos",
-    label: "projetos",
+    title: t.header.nav.projects,
+    label: t.header.nav.projects.toLowerCase(),
     url: "/#projetos",
   },
   {
-    title: "Sobre mim",
-    label: "sobre-mim",
+    title: t.header.nav.about,
+    label: t.header.nav.about.toLowerCase(),
     url: "/#sobre",
   },
   {
-    title: "Contato",
-    label: "contato",
-    url: "mailto:romuloffall@gmail.com",
+    title: t.header.nav.contact,
+    label: t.header.nav.contact.toLowerCase(),
+    url: "mailto:"+t.email,
   },
 ]
 ---

@@ -1,4 +1,5 @@
 ---
+import { getI18N } from "@/i18n";
 const personalImageAlt = "Rômulo Oliveira";
 import Badge from "@/components/Badge.astro";
 import LinkedInIcon from "@/components/icons/LinkedIn.astro";
@@ -6,6 +7,8 @@ import MailIcon from "@/components/icons/Mail.astro";
 import SocialPill from "@/components/SocialPill.astro";
 import GitHub from "./icons/GitHub.astro";
 import Download from "./icons/Download.astro";
+const { currentLocale } = Astro;
+const t = getI18N({ currentLocale });
 ---
 
 <div class="max-w-xl">
@@ -21,36 +24,35 @@ import Download from "./icons/Download.astro";
       rel="noopener"
       class="flex items-center transition md:justify-center md:hover:scale-105"
     >
-      <Badge>Disponível para projetos</Badge>
+      <Badge>{t.hero.badge}</Badge>
     </a>
   </div>
   <h1
     class="text-4xl font-bold tracking-tight text-gray-800 sm:text-5xl dark:text-white"
   >
-    Olá, sou Rômulo Oliveira
+    {t.hero.title}
   </h1>
   <p
     class="mt-6 text-xl text-gray-800 dark:[&>strong]:text-purple-500 [&>strong]:text-purple-500 [&>strong]:font-semibold dark:text-gray-300"
   >
-    +3 anos de experiência. <strong>Desenvolvedor de Software</strong> de Fortaleza,
-    Brasil. Especializado no desenvolvimento de tecnologias web.
+    {t.hero.text}
   </p>
   <nav class="flex flex-wrap gap-4 mt-8">
-    <SocialPill href="mailto:romuloffall@gmail.com">
+    <SocialPill href={"mailto:" + t.email}>
       <MailIcon class="size-4" />
-      Contato
+      {t.hero.links.contact}
     </SocialPill>
     <SocialPill href="https://linkedin.com/in/roliveira94/">
       <LinkedInIcon class="size-4" />
-      LinkedIn
+      {t.hero.links.linkedin}
     </SocialPill>
     <SocialPill href="https://github.com/RomuloOliveira94">
       <GitHub class="size-4" />
-      Github
+      {t.hero.links.github}
     </SocialPill>
     <SocialPill href="/resume-2024.pdf">
       <Download class="size-4" />
-      Currículo
+      {t.hero.links.resume}
     </SocialPill>
   </nav>
 </div>
