@@ -1,6 +1,5 @@
 ---
 import GitHub from "./icons/GitHub.astro";
-import NextJS from "./icons/NextJS.astro";
 import Tailwind from "./icons/Tailwind.astro";
 import Link from "./icons/Link.astro";
 import LinkButton from "./LinkButton.astro";
@@ -8,6 +7,7 @@ import AlpineJS from "./icons/AlpineJS.astro";
 import Prisma from "./icons/Prisma.astro";
 import PostgreSQL from "./icons/PostgreSQL.astro";
 import Typescript from "./icons/Typescript.astro";
+import NextJS from "./icons/NextJS.astro";
 
 const TAGS = {
   NEXT: {
@@ -22,22 +22,22 @@ const TAGS = {
   },
   ALPINE: {
     name: "Alpine.js",
-    class: "bg-[#8BC34A] text-white",
+    class: "bg-white text-black",
     icon: AlpineJS,
   },
   TYPESCRIPT: {
     name: "Typescript",
-    class: "bg-[#007ACC] text-white",
+    class: "bg-sky-300 text-black",
     icon: Typescript,
   },
   PRISMA: {
     name: "Prisma",
-    class: "bg-[#2D3748] text-white",
+    class: "bg-neutral-900 text-white",
     icon: Prisma,
   },
   POSTGRESQL: {
     name: "PostgreSQL",
-    class: "bg-[#336791] text-white",
+    class: "bg-gray-800 text-white",
     icon: PostgreSQL,
   },
 };
@@ -49,7 +49,7 @@ const PROJECTS = [
     link: "https://svgl.vercel.app/",
     github: "https://github.com/pheralb/svgl",
     image: "/projects/svgl.webp",
-    tags: [TAGS.NEXT, TAGS.TAILWIND],
+    tags: [TAGS.TYPESCRIPT, TAGS.ALPINE, TAGS.TAILWIND, TAGS.POSTGRESQL],
   },
   {
     title:
@@ -58,7 +58,13 @@ const PROJECTS = [
       "Plataforma gratuita con retos de programación. Más de 1 millón de visitas en un mes. +50K retos completados. Creada desde cero con Next.js, React y Tailwind CSS.",
     link: "https://adventjs.dev",
     image: "/projects/adventjs.webp",
-    tags: [TAGS.NEXT, TAGS.TAILWIND],
+    tags: [
+      TAGS.TYPESCRIPT,
+      TAGS.NEXT,
+      TAGS.TAILWIND,
+      TAGS.PRISMA,
+      TAGS.POSTGRESQL,
+    ],
   },
 ];
 ---
@@ -83,7 +89,7 @@ const PROJECTS = [
             {title}
           </h3>
           <div class="flex flex-wrap mt-2">
-            <ul class="flex flex-row mb-2 gap-x-2">
+            <ul class="flex flex-row flex-wrap mb-2 gap-2">
               {tags.map((tag) => (
                 <li>
                   <span
