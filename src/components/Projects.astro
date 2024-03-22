@@ -8,6 +8,8 @@ import Prisma from "./icons/Prisma.astro";
 import PostgreSQL from "./icons/PostgreSQL.astro";
 import Typescript from "./icons/Typescript.astro";
 import NextJS from "./icons/NextJS.astro";
+import AstroIcon from "./icons/AstroIcon.astro";
+import Xata from "./icons/Xata.astro";
 
 const TAGS = {
   NEXT: {
@@ -40,6 +42,16 @@ const TAGS = {
     class: "bg-gray-800 text-white",
     icon: PostgreSQL,
   },
+  ASTRO: {
+    name: "Astro",
+    class: "bg-black text-white",
+    icon: AstroIcon,
+  },
+  XATA: {
+    name: "Xata",
+    class: "bg-purple-900 text-white",
+    icon: Xata,
+  },
 };
 const PROJECTS = [
   {
@@ -49,7 +61,14 @@ const PROJECTS = [
     link: "https://svgl.vercel.app/",
     github: "https://github.com/pheralb/svgl",
     image: "/projects/svgl.webp",
-    tags: [TAGS.TYPESCRIPT, TAGS.ALPINE, TAGS.TAILWIND, TAGS.POSTGRESQL],
+    tags: [
+      TAGS.TYPESCRIPT,
+      TAGS.ASTRO,
+      TAGS.TAILWIND,
+      TAGS.ALPINE,
+      TAGS.XATA,
+      TAGS.POSTGRESQL,
+    ],
   },
   {
     title:

@@ -1,8 +1,8 @@
-# 👨🏻‍💻 Porfolio Rômulo Oliveira
+# 👨🏻‍💻 Portfolio Rômulo Oliveira
 
 <div align="center">
-<a href="https://porfolio.dev/">
-<img src="./public/porfolio.webp">
+<a href="https://romin.dev.br/">
+<img src="./public/portfolio.webp">
 </a>
 <p></p>
 </div>
