@@ -41,7 +41,8 @@
           "description": "Agenda Fácil é um sistema de agendamento de serviços para empresas de qualquer segmento. Com ele é possível gerenciar horários, serviços e clientes de forma simples e eficiente.",
           "link": "https://projeto-agendamento.fly.dev",
           "image": "agenda-facil.webp",
-          "tags": ["TYPESCRIPT", "NEXT", "TAILWIND", "PRISMA", "POSTGRESQL"]
+          "tags": ["TYPESCRIPT", "NEXT", "TAILWIND", "PRISMA", "POSTGRESQL"],
+          "github": ""
         }
       ],
       "buttons": {

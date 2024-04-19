@@ -64,7 +64,7 @@ const TAGS = {
     class: "bg-purple-900 text-white",
     icon: Xata,
   },
-};
+} 
 ---
 
 <div class="flex flex-col gap-y-16">
@@ -95,7 +95,7 @@ const TAGS = {
                       <span
                         class={`flex gap-x-2 rounded-full text-xs ${TAGS[tag as keyof typeof TAGS].class} py-1 px-2 `}
                       >
-                        <TAGS[tag].icon className="size-4" />
+                        {<TAGS[tag].icon  class="size-4" />}
                         {TAGS[tag as keyof typeof TAGS].name}
                       </span>
                     </li>

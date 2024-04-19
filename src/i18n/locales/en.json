@@ -41,7 +41,8 @@
             "description": "Agenda Fácil is a scheduling system for small and medium businesses. With it, you can manage schedules, services, and clients in a simple and efficient way.",
           "link": "https://projeto-agendamento.fly.dev",
           "image": "agenda-facil.webp",
-          "tags": ["TYPESCRIPT", "NEXT", "TAILWIND", "PRISMA", "POSTGRESQL"]
+          "tags": ["TYPESCRIPT", "NEXT", "TAILWIND", "PRISMA", "POSTGRESQL"],
+          "github": ""
         }
       ],
       "buttons": {

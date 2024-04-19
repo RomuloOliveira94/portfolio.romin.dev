@@ -41,7 +41,8 @@
           "description": "Plataforma gratuita con desafíos de programación. Más de 1 millón de visitas en un mes. +50K desafíos completados. Creada desde cero con Next.js, React y Tailwind CSS.",
           "link": "https://projeto-agendamento.fly.dev",
           "image": "agenda-facil.webp",
-          "tags": ["TYPESCRIPT", "NEXT", "TAILWIND", "PRISMA", "POSTGRESQL"]
+          "tags": ["TYPESCRIPT", "NEXT", "TAILWIND", "PRISMA", "POSTGRESQL"],
+          "github": ""
         }
       ],
       "buttons": {
