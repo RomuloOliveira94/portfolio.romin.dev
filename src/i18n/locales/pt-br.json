@@ -41,8 +41,32 @@
           "description": "Agenda Fácil é um sistema de agendamento de serviços para empresas de qualquer segmento. Com ele é possível gerenciar horários, serviços e clientes de forma simples e eficiente.",
           "link": "https://projeto-agendamento.fly.dev",
           "image": "agenda-facil.webp",
-          "tags": ["TYPESCRIPT", "NEXT", "TAILWIND", "PRISMA", "POSTGRESQL"],
+          "tags": ["TYPESCRIPT", "NEXT", "TAILWIND", "PRISMA", "POSTGRESQL", "DOCKER", "SOCKET"],
           "github": ""
+        },
+        {
+          "title": "Papasand's Restaurant - Sistema multiusuário de restaurante com sistema de pedidos e carrinho",
+          "description": "Papasand's Restaurant é um sistema de restaurante multiusuário com sistema de pedidos e carrinho. Com ele é possível gerenciar pedidos, produtos e clientes de forma simples e eficiente.",
+          "link": "https://papasand-s.web.app/",
+          "image": "papasands.webp",
+          "tags": ["TYPESCRIPT", "VUE", "BOOTSTRAP", "FIREBASE"],
+          "github": "https://github.com/RomuloOliveira94/papasands-restaurant-webapp"
+        },
+        {
+          "title": "Romin Chats: Sistema de chat em tempo real com múltiplas salas",
+          "description": "Romin Chats é um sistema de chat em tempo real com múltiplas salas. Com ele é possível criar salas de chat, entrar em salas existentes e conversar com outras pessoas em tempo real.",
+          "link": "https://romin-chats.vercel.app",
+          "image": "chats.png",
+          "tags": ["TYPESCRIPT", "REACT", "NODE", "EXPRESS", "SOCKET"],
+          "github": "https://github.com/RomuloOliveira94/romin-chats"
+        },
+        {
+          "title": "Romin Notes: Sistema multiusuário e multi idioma para gerenciamento de notas de texto.",
+          "description": "Romin Notes é um sistema multiusuário e multi idioma para gerenciamento de notas de texto. Com ele é possível criar, editar e excluir notas de texto de forma simples e eficiente.",
+          "link": "https://romin-notes.web.app/",
+          "image": "notes.png",
+          "tags": ["TYPESCRIPT", "VUE", "FIREBASE", "PINIA", "TRANSLATIONS"],
+          "github": "https://github.com/RomuloOliveira94/romin-notes"
         }
       ],
       "buttons": {

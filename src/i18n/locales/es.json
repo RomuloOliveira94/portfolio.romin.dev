@@ -37,7 +37,7 @@
       "title": "Proyectos",
       "projects": [
         {
-          "title": "Agenda Fácil - Reservas digitales para pequeñas y medianas empresas",
+          "title": "Papasand's Restaurant - Multi-user restaurant system with ordering system and trolley",
             "description": "Agenda Fácil es un sistema de reservas digitales para pequeñas y medianas empresas. Permite gestionar horarios, servicios y clientes de manera sencilla y eficiente.",
           "link": "https://projeto-agendamento.fly.dev",
           "image": "agenda-facil.webp",

@@ -11,6 +11,17 @@ import Typescript from "./icons/Typescript.astro";
 import NextJS from "./icons/NextJS.astro";
 import AstroIcon from "./icons/AstroIcon.astro";
 import Xata from "./icons/Xata.astro";
+import Vue from "./icons/Vue.astro";
+import Firebase from "./icons/Firebase.astro";
+import Bootstrap from "./icons/Bootstrap.astro";
+import React from "./icons/React.astro";
+import Node from "./icons/Node.astro";
+import Rails from "./icons/Rails.astro";
+import Express from "./icons/Express.astro";
+import Socket from "./icons/Socket.astro";
+import I18N from "./icons/I18n.astro";
+import Pinia from "./icons/Pinia.astro";
+import Docker from "./icons/Docker.astro";
 
 const { currentLocale } = Astro;
 const t = getI18N({ currentLocale });
@@ -63,6 +74,61 @@ const TAGS = {
     name: "Xata",
     class: "bg-purple-900 text-white",
     icon: Xata,
+  },
+  VUE: {
+    name: "Vue.js",
+    class: "bg-gray-800 text-white",
+    icon: Vue,
+  },
+  FIREBASE: {
+    name: "Firebase",
+    class: "bg-gray-800 text-white",
+    icon: Firebase
+  },
+  BOOTSTRAP: {
+    name: "Bootstrap",
+    class: "bg-gray-800 text-white",
+    icon: Bootstrap
+  },
+  REACT : {
+    name: "React",
+    class: "bg-gray-800 text-white",
+    icon: React
+  },
+  NODE: {
+    name: "Node.js",
+    class: "bg-white text-green-700",
+    icon: Node
+  },
+  RAILS : {
+    name: "Ruby on Rails",
+    class: "bg-red-500 text-white",
+    icon: Rails
+  },
+  EXPRESS: {
+    name: "Express",
+    class: "bg-white text-black",
+    icon: Express
+  },
+  SOCKET: {
+    name: "Socket.io",
+    class: "bg-gray-800 text-white",
+    icon: Socket
+  },
+  TRANSLATIONS: {
+    name: "i18n",
+    class: "bg-gray-800 text-white",
+    icon: I18N
+  },
+  PINIA : {
+    name: "Pinia",
+    class: "bg-gray-800 text-white",
+    icon: Pinia
+  },
+  DOCKER : {
+    name: "Docker",
+    class: "bg-white text-blue-900",
+    icon: Docker
   },
 } 
 ---
