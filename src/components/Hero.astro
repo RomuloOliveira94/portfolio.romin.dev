@@ -50,9 +50,18 @@ const t = getI18N({ currentLocale });
       <GitHub class="size-4" />
       {t.hero.links.github}
     </SocialPill>
-    <SocialPill href="/resume-2024.pdf">
-      <Download class="size-4" />
-      {t.hero.links.resume}
-    </SocialPill>
+    {
+      Astro.url.pathname === "/en" ? (
+        <SocialPill href="/cv-2024-en.pdf">
+          <Download class="size-4" />
+          {t.hero.links.resume}
+        </SocialPill>
+      ) : (
+        <SocialPill href="/cv-2024-pt.pdf">
+          <Download class="size-4" />
+          {t.hero.links.resume}
+        </SocialPill>
+      )
+    }
   </nav>
 </div>
