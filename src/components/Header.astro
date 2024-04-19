@@ -30,8 +30,8 @@ const navItems = [
 ---
 
 <header
-  class="fixed top-0 z-10 flex items-center justify-center w-full mx-auto mt-2 w-full"
->
+  class="fixed top-0 z-10 flex items-center justify-center w-full mx-auto mt-2"
+  transition:persist>
   <nav
     class="flex px-3 text-sm font-medium rounded-full text-gray-600 dark:text-gray-200 justify-center items-center"
   >
@@ -46,8 +46,8 @@ const navItems = [
         </a>
       ))
     }
-    <LangToggle />
-    <ThemeToggle />
+    <LangToggle  />
+    <ThemeToggle  />
   </nav>
 </header>
 
