@@ -26,10 +26,10 @@
       "title": "Experiência",
       "experiences": [
         {
-          "date": "Atualmente...",
+          "date": "2022-2024",
           "title": "Desenvolvedor de Software",
           "company": "Hahn-Software",
-          "description": "Contribuo ativamente para o design, desenvolvimento e refinamento contínuo de soluções inovadoras para o projeto. Minhas tarefas também incluem revisões de código, testes e elaboração de documentação detalhada para garantir qualidade e usabilidade."
+          "description": "Desenvolvimento e manutenção de um sistema de cadastro e gerenciamento de carteiras de motorista do governo da Alemanha. Contribuí ativamente para o design, desenvolvimento e refinamento contínuo de soluções inovadoras para o projeto. Minhas tarefas também incluem revisões de código, testes e elaboração de documentação detalhada para garantir qualidade e usabilidade."
         }
       ]
     },
@@ -37,37 +37,22 @@
       "title": "Projetos",
       "projects": [
         {
-          "title": "Cardápio Popular - Cardápio digital para restaurantes",
-          "description": "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
-          "link": "https://svgl.vercel.app/",
-          "github": "https://github.com/pheralb/svgl",
-          "image": "/projects/svgl.webp",
-          "tags": [
-            "TYPESCRIPT",
-            "ASTRO",
-            "TAILWIND",
-            "ALPINE",
-            "XATA",
-            "POSTGRESQL"
-          ]
-        },
-        {
-          "title": "Agenda Popular - Agendamento digital para pequenos e médios negócios",
-          "description": "Plataforma gratuita con retos de programación. Más de 1 millón de visitas en un mes. +50K retos completados. Creada desde cero con Next.js, React y Tailwind CSS.",
-          "link": "https://adventjs.dev",
-          "image": "/projects/adventjs.webp",
+          "title": "Agenda Fácil - Agendamento digital para pequenos e médios negócios",
+          "description": "Agenda Fácil é um sistema de agendamento de serviços para empresas de qualquer segmento. Com ele é possível gerenciar horários, serviços e clientes de forma simples e eficiente.",
+          "link": "https://projeto-agendamento.fly.dev",
+          "image": "agenda-facil.webp",
           "tags": ["TYPESCRIPT", "NEXT", "TAILWIND", "PRISMA", "POSTGRESQL"]
         }
       ],
       "buttons": {
-        "code": "Código",
+        "code": "",
         "visit": "Visitar"
       }
     },
     "about": {
       "title": "Sobre mim",
       "text_01": "Me chamo Rômulo Oliveira e iniciei minha carreira na programação em 2021. Atualmente trabalho como desenvolvedor de software freelancer de perfil empresarial.",
-      "text_02": "Sou responsável pelo desenvolvimento do <a href='#'>Cardápio Popular</a> e <a href='#'>Agenda Popular</a>, o primeiro um sistema de cardápio digital para restaurantes que conta com painel de gestão de pedidos e o segundo um sistema de agendamento de serviços para empresas de qualquer segmento.",
+      "text_02": "Sou responsável pelo desenvolvimento da Agenda Fácil, sistema de agendamento de serviços para empresas de qualquer segmento.",
       "text_03": "Além disso estou sempre buscando novos desafios e oportunidades para aplicar meus conhecimentos e desenvolver minhas habilidades como programador."
     }
   },

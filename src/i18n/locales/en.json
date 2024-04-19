@@ -3,81 +3,66 @@
   "email": "romuloffall@gmail.com",
   "header": {
     "nav": {
-      "experience": "Experiência",
-      "projects": "Projetos",
-      "about": "Sobre mim",
-      "contact": "Contato"
+      "experience": "Experience",
+      "projects": "Projects",
+      "about": "About",
+      "contact": "Contact"
     },
-    "theme_title": "Tema"
+    "theme_title": "Theme"
   },
   "hero": {
-    "title": "Olá, sou Rômulo Oliveira",
-    "text": "+3 anos de experiência. Desenvolvedor de Software de Fortaleza, Brasil. Especializado no desenvolvimento de tecnologias web.",
-    "badge": "Disponível para Projetos",
+    "title": "Hello, I'm Rômulo Oliveira",
+    "text": "+3 years of experience. Software Developer from Fortaleza, Brazil. Specialized in web technology development.",
+    "badge": "Available for projects",
     "links": {
-      "contact": "Contato",
+      "contact": "Contact",
       "linkedin": "LinkedIn",
       "github": "Github",
-      "resume": "Currículo"
+      "resume": "Resume"
     }
   },
   "sections": {
     "experience": {
-      "title": "Experiência",
+      "title": "Experience",
       "experiences": [
         {
-          "date": "Atualmente...",
-          "title": "Desenvolvedor de Software",
+          "date": "2022-2024",
+          "title": "Software Developer",
           "company": "Hahn-Software",
-          "description": "Contribuo ativamente para o design, desenvolvimento e refinamento contínuo de soluções inovadoras para o projeto. Minhas tarefas também incluem revisões de código, testes e elaboração de documentação detalhada para garantir qualidade e usabilidade."
+          "description": "Development and maintenance of a driver's license registration and management system for the German government. Actively contributed to the design, development, and continuous refinement of innovative solutions for the project. My tasks also include code reviews, testing, and creating detailed documentation to ensure quality and usability."
         }
       ]
     },
     "projects": {
-      "title": "Projetos",
+      "title": "Projects",
       "projects": [
         {
-          "title": "Cardápio Popular - Cardápio digital para restaurantes",
-          "description": "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
-          "link": "https://svgl.vercel.app/",
-          "github": "https://github.com/pheralb/svgl",
-          "image": "/projects/svgl.webp",
-          "tags": [
-            "TYPESCRIPT",
-            "ASTRO",
-            "TAILWIND",
-            "ALPINE",
-            "XATA",
-            "POSTGRESQL"
-          ]
-        },
-        {
-          "title": "Agenda Popular - Agendamento digital para pequenos e médios negócios",
-          "description": "Plataforma gratuita con retos de programación. Más de 1 millón de visitas en un mes. +50K retos completados. Creada desde cero con Next.js, React y Tailwind CSS.",
-          "link": "https://adventjs.dev",
-          "image": "/projects/adventjs.webp",
+          "title": "Agenda Fácil - Digital scheduling for small and medium businesses",
+            "description": "Agenda Fácil is a scheduling system for small and medium businesses. With it, you can manage schedules, services, and clients in a simple and efficient way.",
+          "link": "https://projeto-agendamento.fly.dev",
+          "image": "agenda-facil.webp",
           "tags": ["TYPESCRIPT", "NEXT", "TAILWIND", "PRISMA", "POSTGRESQL"]
         }
       ],
       "buttons": {
-        "code": "Código",
-        "visit": "Visitar"
+        "visit": "Visit",
+        "code": ""
       }
     },
     "about": {
       "title": "Sobre",
-      "text_01": "Me chamo Rômulo Oliveira e iniciei minha carreira na programação em 2021. Atualmente trabalho como desenvolvedor de software freelancer de perfil empresarial.",
-      "text_02": "Sou responsável pelo desenvolvimento do <a href='#'>Cardápio Popular</a> e <a href='#'>Agenda Popular</a>, o primeiro um sistema de cardápio digital para restaurantes que conta com painel de gestão de pedidos e o segundo um sistema de agendamento de serviços para empresas de qualquer segmento.",
-      "text_03": "Além disso estou sempre buscando novos desafios e oportunidades para aplicar meus conhecimentos e desenvolver minhas habilidades como programador."
+      "text_01": "My name is Rômulo Oliveira and I started my programming career in 2021. Currently, I work as a freelance software developer with a focus on business solutions.",
+      "text_02": "I am responsible for the development of Agenda Fácil, a service scheduling system for businesses in any industry.",
+      "text_03": "In addition, I am always seeking new challenges and opportunities to apply my knowledge and develop my skills as a programmer."
     }
   },
   "footer": {
-    "text": "Desenvolvido por Rômulo Oliveira",
+    "text": "Developed by Rômulo Oliveira",
     "nav": {
-      "home": "Início",
-      "projects": "Projetos",
-      "about": "Sobre",
-      "contact": "Contato"
+      "home": "Home",
+      "projects": "Projects",
+      "about": "About",
+      "contact": "Contact"
     }
   }
 }

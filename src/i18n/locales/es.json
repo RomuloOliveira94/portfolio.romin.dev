@@ -29,7 +29,7 @@
           "date": "Actualmente...",
           "title": "Desarrollador de Software",
           "company": "Hahn-Software",
-          "description": "Contribuyo activamente al diseño, desarrollo y refinamiento continuo de soluciones innovadoras para el proyecto. Mis tareas también incluyen revisiones de código, pruebas y elaboración de documentación detallada para garantizar calidad y usabilidad."
+          "description": "Desarrollo y mantenimiento de un sistema de registro y gestión de licencias de conducir para el gobierno alemán. Contribuí activamente al diseño, desarrollo y mejora continua de soluciones innovadoras para el proyecto. Mis tareas también incluyen revisiones de código, pruebas y creación de documentación detallada para garantizar calidad y usabilidad."
         }
       ]
     },
@@ -37,30 +37,15 @@
       "title": "Proyectos",
       "projects": [
         {
-          "title": "Cardápio Popular - Menú digital para restaurantes",
-          "description": "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
-          "link": "https://svgl.vercel.app/",
-          "github": "https://github.com/pheralb/svgl",
-          "image": "/projects/svgl.webp",
-          "tags": [
-            "TYPESCRIPT",
-            "ASTRO",
-            "TAILWIND",
-            "ALPINE",
-            "XATA",
-            "POSTGRESQL"
-          ]
-        },
-        {
-          "title": "Agenda Popular - Reservas digitales para pequeñas y medianas empresas",
+          "title": "Agenda Fácil - Reservas digitales para pequeñas y medianas empresas",
           "description": "Plataforma gratuita con desafíos de programación. Más de 1 millón de visitas en un mes. +50K desafíos completados. Creada desde cero con Next.js, React y Tailwind CSS.",
-          "link": "https://adventjs.dev",
-          "image": "/projects/adventjs.webp",
+          "link": "https://projeto-agendamento.fly.dev",
+          "image": "agenda-facil.webp",
           "tags": ["TYPESCRIPT", "NEXT", "TAILWIND", "PRISMA", "POSTGRESQL"]
         }
       ],
       "buttons": {
-        "code": "Código",
+        "code": "",
         "visit": "Visitar"
       }
     },
