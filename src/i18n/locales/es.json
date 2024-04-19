@@ -37,12 +37,36 @@
       "title": "Proyectos",
       "projects": [
         {
-          "title": "Papasand's Restaurant - Multi-user restaurant system with ordering system and trolley",
-            "description": "Agenda Fácil es un sistema de reservas digitales para pequeñas y medianas empresas. Permite gestionar horarios, servicios y clientes de manera sencilla y eficiente.",
+          "title": "Agenda Fácil - Sistema de Reservas",
+          "description": "Agenda Fácil es un sistema de reservas digitales para pequeñas y medianas empresas. Permite gestionar horarios, servicios y clientes de manera sencilla y eficiente.",
           "link": "https://projeto-agendamento.fly.dev",
           "image": "agenda-facil.webp",
           "tags": ["TYPESCRIPT", "NEXT", "TAILWIND", "PRISMA", "POSTGRESQL"],
           "github": ""
+        },
+        {
+          "title": "Papasand's Restaurant - Sistema multiusuario de restaurante con sistema de pedidos y carrito",
+          "description": "Papasand's Restaurant - Sistema multiusuario de restaurante con sistema de pedidos y carrito. Permite gestionar pedidos, productos y clientes de manera sencilla y eficiente.",
+          "link": "https://papasand-s.web.app/",
+          "image": "papasands.webp",
+          "tags": ["TYPESCRIPT", "VUE", "BOOTSTRAP", "FIREBASE"],
+          "github": "https://github.com/RomuloOliveira94/papasands-restaurant-webapp"
+        },
+        {
+          "title": "Romin Chats: Sistema de chat en tiempo real con múltiples salas",
+          "description": "Romin Chats: Sistema de chat en tiempo real con múltiples salas. Permite crear salas de chat, unirse a salas existentes y chatear con otras personas en tiempo real.",
+          "link": "https://romin-chats.vercel.app",
+          "image": "chats.png",
+          "tags": ["TYPESCRIPT", "REACT", "NODE", "EXPRESS", "SOCKET"],
+          "github": "https://github.com/RomuloOliveira94/romin-chats"
+        },
+        {
+          "title": "Romin Notes: Sistema multiusuario y multilingüe para la gestión de notas de texto.",
+          "description": "Romin Notes: Sistema multiusuario y multilingüe para la gestión de notas de texto. Permite crear, editar y eliminar notas de texto de manera simple y eficiente.",
+          "link": "https://romin-notes.web.app/",
+          "image": "notes.png",
+          "tags": ["TYPESCRIPT", "VUE", "FIREBASE", "PINIA", "TRANSLATIONS"],
+          "github": "https://github.com/RomuloOliveira94/romin-notes"
         }
       ],
       "buttons": {

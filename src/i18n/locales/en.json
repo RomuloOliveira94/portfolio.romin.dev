@@ -38,27 +38,35 @@
       "projects": [
         {
           "title": "Agenda Fácil - Digital scheduling for small and medium businesses",
-            "description": "Agenda Fácil is a scheduling system for small and medium businesses. With it, you can manage schedules, services, and clients in a simple and efficient way.",
+          "description": "Agenda Fácil is a scheduling system for small and medium businesses. With it, you can manage schedules, services, and clients in a simple and efficient way.",
           "link": "https://projeto-agendamento.fly.dev",
           "image": "agenda-facil.webp",
           "tags": ["TYPESCRIPT", "NEXT", "TAILWIND", "PRISMA", "POSTGRESQL"],
           "github": ""
         },
         {
-          "title": "Papasand's Restaurant - Multi-user restaurant system with ordering system and trolley",
-            "description": "Agenda Fácil is a scheduling system for small and medium businesses. With it, you can manage schedules, services, and clients in a simple and efficient way.",
-          "link": "https://projeto-agendamento.fly.dev",
-          "image": "agenda-facil.webp",
-          "tags": ["TYPESCRIPT", "NEXT", "TAILWIND", "PRISMA", "POSTGRESQL"],
-          "github": ""
+          "title": "Papasand's Restaurant - Multi-user restaurant system with ordering and cart system",
+          "description": "Papasand's Restaurant - Multi-user restaurant system with ordering and cart system. Allows for easy and efficient management of orders, products, and customers.",
+          "link": "https://papasand-s.web.app/",
+          "image": "papasands.webp",
+          "tags": ["TYPESCRIPT", "VUE", "BOOTSTRAP", "FIREBASE"],
+          "github": "https://github.com/RomuloOliveira94/papasands-restaurant-webapp"
         },
         {
-          "title": "Romin Chats: Real-time chat system with multiple rooms.",
-            "description": "Agenda Fácil is a scheduling system for small and medium businesses. With it, you can manage schedules, services, and clients in a simple and efficient way.",
-          "link": "https://projeto-agendamento.fly.dev",
-          "image": "agenda-facil.webp",
-          "tags": ["TYPESCRIPT", "NEXT", "TAILWIND", "PRISMA", "POSTGRESQL"],
-          "github": ""
+          "title": "Romin Chats: Real-time chat system with multiple rooms",
+          "description": "Romin Chats: Real-time chat system with multiple rooms. Allows creating chat rooms, joining existing rooms, and chatting with other people in real-time.",
+          "link": "https://romin-chats.vercel.app",
+          "image": "chats.png",
+          "tags": ["TYPESCRIPT", "REACT", "NODE", "EXPRESS", "SOCKET"],
+          "github": "https://github.com/RomuloOliveira94/romin-chats"
+        },
+        {
+          "title": "Romin Notes: Multi-user and multilingual system for text note management.",
+          "description": "Multi-user and multilingual system for text note management. Allows for simple and efficient creation, editing, and deletion of text notes.",
+          "link": "https://romin-notes.web.app/",
+          "image": "notes.png",
+          "tags": ["TYPESCRIPT", "VUE", "FIREBASE", "PINIA", "TRANSLATIONS"],
+          "github": "https://github.com/RomuloOliveira94/romin-notes"
         }
       ],
       "buttons": {
