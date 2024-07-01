@@ -26,11 +26,17 @@
       "title": "Experience",
       "experiences": [
         {
+          "date": "2024 - Present",
+          "title": "Backend Developer",
+          "company": "Intersol Web Solutions", 
+          "description": "Backend development in fiscal solutions using Ruby on Rails. Development and maintenance of integrated systems for various municipalities, optimizing the management of municipal taxes. My work involves implementing new features, bug fixes, and continuous improvements. In addition, I collaborate with the team to ensure the efficiency and scalability of the applications."
+        },
+        {
           "date": "2022-2024",
           "title": "Software Developer",
           "company": "Hahn-Software",
           "description": "Development and maintenance of a driver's license registration and management system for the German government. Actively contributed to the design, development, and continuous refinement of innovative solutions for the project. My tasks also include code reviews, testing, and creating detailed documentation to ensure quality and usability."
-        }
+        } 
       ]
     },
     "projects": {

@@ -26,6 +26,12 @@
       "title": "Experiencia",
       "experiences": [
         {
+          "date": "2024 - Presente",
+          "title": "Desarrollador Backend",
+          "company": "Intersol Soluciones Web", 
+          "description": "Desarrollo de backend en soluciones fiscales utilizando Ruby on Rails. Desarrollo y mantenimiento de sistemas integrados para varios municipios, optimizando la gestión de impuestos municipales. Mi trabajo implica la implementación de nuevas características, corrección de errores y mejoras continuas. Además, colaboro con el equipo para garantizar la eficiencia y escalabilidad de las aplicaciones."
+        },
+        {
           "date": "Actualmente...",
           "title": "Desarrollador de Software",
           "company": "Hahn-Software",
