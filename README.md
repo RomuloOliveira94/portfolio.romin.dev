@@ -8,7 +8,7 @@
 </div>
 
 <div align="center">
-<a href="https://romin.dev.br/">
+<a href="https://portfolio.romin.dev.br/">
 <img src="https://github.com/RomuloOliveira94/portfolio.romin.dev/assets/99622544/44a35d5e-6423-48ba-8815-6a8ed8f5b51f">
 </a>
 </div>
