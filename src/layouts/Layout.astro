@@ -4,6 +4,7 @@ import "@fontsource-variable/onest";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import { ViewTransitions } from "astro:transitions";
+import WhatsAppButton from "@/components/WhatsAppButton.astro";
 
 interface Props {
   title: string;
@@ -35,6 +36,7 @@ const { description, title } = Astro.props;
     </div>
     <Header />
     <slot />
+    <WhatsAppButton />
     <Footer />
     <style is:global>
       :root {
