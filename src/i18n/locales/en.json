@@ -12,7 +12,7 @@
   },
   "hero": {
     "title": "Hello, I'm Rômulo Oliveira",
-    "text": "+3 years of experience. Software Developer from Fortaleza, Brazil. Specialized in web technology development.",
+    "text": "+4 years of experience. Software Developer from Fortaleza, Brazil. Specialized in web technology development.",
     "badge": "Available for projects",
     "links": {
       "contact": "Contact",
@@ -27,8 +27,8 @@
       "experiences": [
         {
           "date": "2024 - Present",
-          "title": "Backend Developer",
-          "company": "Intersol Web Solutions", 
+          "title": "Full Stack Developer",
+          "company": "Intersol Web Solutions",
           "description": "Backend development in fiscal solutions using Ruby on Rails. Development and maintenance of integrated systems for various municipalities, optimizing the management of municipal taxes. My work involves implementing new features, bug fixes, and continuous improvements. In addition, I collaborate with the team to ensure the efficiency and scalability of the applications."
         },
         {
@@ -36,12 +36,29 @@
           "title": "Software Developer",
           "company": "Hahn-Software",
           "description": "Development and maintenance of a driver's license registration and management system for the German government. Actively contributed to the design, development, and continuous refinement of innovative solutions for the project. My tasks also include code reviews, testing, and creating detailed documentation to ensure quality and usability."
-        } 
+        }
       ]
     },
     "projects": {
       "title": "Projects",
       "projects": [
+        {
+          "title": "Marvel Snap Brasil - Brazilian Marvel Snap Portal",
+          "description": "Marvel Snap Brasil is a Brazilian Marvel Snap portal. With it, you can access news, cards, decks, tournaments, metagame analysis, events, and much more.",
+          "link": "https://marvelsnapbrasil.com.br",
+          "image": "marvel-snap-brasil.png",
+          "tags": [
+            "PHP",
+            "LARAVEL",
+            "LIVEWIRE",
+            "TAILWIND",
+            "ALPINE",
+            "REDIS",
+            "MYSQL",
+            "DOCKER",
+            "GHACTIONS"
+          ]
+        },
         {
           "title": "Agenda Fácil - Digital scheduling for small and medium businesses",
           "description": "Agenda Fácil is a scheduling system for small and medium businesses. With it, you can manage schedules, services, and clients in a simple and efficient way.",
@@ -49,6 +66,22 @@
           "image": "agenda-facil.webp",
           "tags": ["TYPESCRIPT", "NEXT", "TAILWIND", "PRISMA", "POSTGRESQL"],
           "github": ""
+        },
+        {
+          "title": "Controla Fácil - Personal financial control system",
+          "description": "Controla Fácil - Personal financial control system. Allows for easy and efficient management of personal finances, expenses, and income.",
+          "link": "https://controlafacil.starksoftware.tech/",
+          "image": "controla-facil.png",
+          "tags": [
+            "RUBY",
+            "RAILS",
+            "TAILWIND",
+            "STIMULUS",
+            "HOTWIRE",
+            "SIDEKIQ",
+            "MYSQL"
+          ],
+          "github": "https://github.com/RomuloOliveira94/controla-facil"
         },
         {
           "title": "Papasand's Restaurant - Multi-user restaurant system with ordering and cart system",

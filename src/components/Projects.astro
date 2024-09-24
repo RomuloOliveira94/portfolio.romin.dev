@@ -22,6 +22,16 @@ import Socket from "./icons/Socket.astro";
 import I18N from "./icons/I18n.astro";
 import Pinia from "./icons/Pinia.astro";
 import Docker from "./icons/Docker.astro";
+import Ruby from "./icons/Ruby.astro";
+import PHP from "./icons/PHP.astro";
+import Laravel from "./icons/Laravel.astro";
+import Livewire from "./icons/Livewire.astro";
+import Ghactions from "./icons/Ghactions.astro";
+import Redis from "./icons/Redis.astro";
+import Mysql from "./icons/Mysql.astro";
+import Sidekiq from "./icons/Sidekiq.astro";
+import Hotwire from "./icons/Hotwire.astro";
+import Stimulus from "./icons/Stimulus.astro";
 
 const { currentLocale } = Astro;
 const t = getI18N({ currentLocale });
@@ -100,6 +110,11 @@ const TAGS = {
     class: "bg-white text-green-700",
     icon: Node
   },
+  RUBY: {
+    name: "Ruby",
+    class: "bg-red-500 text-white",
+    icon: Ruby
+  },
   RAILS : {
     name: "Ruby on Rails",
     class: "bg-red-500 text-white",
@@ -130,6 +145,51 @@ const TAGS = {
     class: "bg-white text-blue-900",
     icon: Docker
   },
+  PHP: {
+    name: "PHP",
+    class: "bg-white text-black",
+    icon: PHP
+  },
+  LARAVEL: {
+    name: "Laravel",
+    class: "bg-white text-black",
+    icon: Laravel
+  },
+  LIVEWIRE: {
+    name: "Livewire",
+    class: "bg-white text-black",
+    icon: Livewire
+  },
+  GHACTIONS: {
+    name: "GitHub Actions",
+    class: "bg-gray-800 text-white",
+    icon: Ghactions
+  },
+  REDIS: {
+    name: "Redis",
+    class: "bg-red-500 text-white",
+    icon: Redis
+  },
+  MYSQL: {
+    name: "MySQL",
+    class: "bg-white text-black",
+    icon: Mysql
+  },
+  SIDEKIQ: {
+    name: "Sidekiq",
+    class: "bg-white text-black",
+    icon: Sidekiq
+  },
+  HOTWIRE: {
+    name: "Hotwire",
+    class: "bg-white text-black",
+    icon: Hotwire
+  },
+  STIMULUS: {
+    name: "Stimulus",
+    class: "bg-white text-black",
+    icon: Stimulus
+  },
 } 
 ---
 
@@ -141,7 +201,7 @@ const TAGS = {
           <div class="w-full md:w-1/2">
             <div class="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
               <img
-                alt="Recién llegado vs 5 años en Nueva Zelanda"
+                alt={title}
                 class="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105"
                 loading="lazy"
                 src={image}

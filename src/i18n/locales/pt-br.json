@@ -12,7 +12,7 @@
   },
   "hero": {
     "title": "Olá, sou Rômulo Oliveira",
-    "text": "+3 anos de experiência. Desenvolvedor de Software de Fortaleza, Brasil. Especializado no desenvolvimento de tecnologias web.",
+    "text": "+4 anos de experiência. Desenvolvedor de Software de Fortaleza, Brasil. Especializado no desenvolvimento de tecnologias web.",
     "badge": "Disponível para Projetos",
     "links": {
       "contact": "Contato",
@@ -27,8 +27,8 @@
       "experiences": [
         {
           "date": "2024 - Presente",
-          "title": "Desenvolvedor Backend",
-          "company": "Intersol Soluções Web", 
+          "title": "Desenvolvedor Full Stack",
+          "company": "Intersol Soluções Web",
           "description": "Desenvolvimento de back-end em soluções fiscais usando Ruby on Rails. Desenvolvo e mantenho sistemas integrados para vários municípios, otimizando a gestão de impostos municipais. Meu trabalho envolve a implementação de novos recursos, correção de bugs e melhorias contínuas. Além disso, colaboro com a equipe para garantir a eficiência e a escalabilidade dos aplicativos."
         },
         {
@@ -43,12 +43,53 @@
       "title": "Projetos",
       "projects": [
         {
+          "title": "Marvel Snap Brasil - Portal Brasileiro de Marvel Snap",
+          "description": "Marvel Snap Brasil é um portal brasileiro de Marvel Snap. Com ele é possível acessar notícias, cartas, decks, torneios, analise de metagame, eventos e muito mais.",
+          "link": "https://marvelsnapbrasil.com.br",
+          "image": "marvel-snap-brasil.png",
+          "tags": [
+            "PHP",
+            "LARAVEL",
+            "LIVEWIRE",
+            "TAILWIND",
+            "ALPINE",
+            "REDIS",
+            "MYSQL",
+            "DOCKER",
+            "GHACTIONS"
+          ]
+        },
+        {
           "title": "Agenda Fácil - Agendamento digital para pequenos e médios negócios",
           "description": "Agenda Fácil é um sistema de agendamento de serviços para empresas de qualquer segmento. Com ele é possível gerenciar horários, serviços e clientes de forma simples e eficiente.",
-          "link": "https://projeto-agendamento.fly.dev",
+          "link": "https://agendafacil.top",
           "image": "agenda-facil.webp",
-          "tags": ["TYPESCRIPT", "NEXT", "TAILWIND", "PRISMA", "POSTGRESQL", "DOCKER", "SOCKET"],
+          "tags": [
+            "TYPESCRIPT",
+            "NEXT",
+            "TAILWIND",
+            "PRISMA",
+            "POSTGRESQL",
+            "DOCKER",
+            "SOCKET"
+          ],
           "github": ""
+        },
+        {
+          "title": "Controla Fácil - Sistema de controle financeiro pessoal",
+          "description": "Controla Fácil é um sistema de controle financeiro pessoal. Com ele é possível gerenciar receitas, despesas, categorias e contas de forma simples e eficiente.",
+          "link": "https://controlafacil.starksoftware.tech/",
+          "image": "controla-facil.png",
+          "tags": [
+            "RUBY",
+            "RAILS",
+            "TAILWIND",
+            "STIMULUS",
+            "HOTWIRE",
+            "SIDEKIQ",
+            "MYSQL"
+          ],
+          "github": "https://github.com/RomuloOliveira94/controla-facil"
         },
         {
           "title": "Papasand's Restaurant - Sistema multiusuário de restaurante com sistema de pedidos e carrinho",
