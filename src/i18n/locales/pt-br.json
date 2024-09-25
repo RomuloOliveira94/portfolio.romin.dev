@@ -36,6 +36,12 @@
           "title": "Desenvolvedor de Software",
           "company": "Hahn-Software",
           "description": "Desenvolvimento e manutenção de um sistema de cadastro e gerenciamento de carteiras de motorista do governo da Alemanha. Contribuí ativamente para o design, desenvolvimento e refinamento contínuo de soluções inovadoras para o projeto. Minhas tarefas também incluem revisões de código, testes e elaboração de documentação detalhada para garantir qualidade e usabilidade."
+        },
+        {
+          "date": "2020-2022",
+          "title": "Desenvolvedor de Software",
+          "company": "Freelancer",
+          "description": "Desenvolvimento de sistemas de controle financeiro pessoal, agendamento de serviços e sistemas de chat em tempo real. Meu trabalho envolve a implementação de novos recursos, correção de bugs e melhorias contínuas. Além disso, colaboro com a equipe para garantir a eficiência e a escalabilidade dos aplicativos."
         }
       ]
     },
@@ -123,9 +129,9 @@
     },
     "about": {
       "title": "Sobre mim",
-      "text_01": "Me chamo Rômulo Oliveira e iniciei minha carreira na programação em 2021. Atualmente estou em busca de novas oportunidades para aplicar meus conhecimentos e somar em projetos desafiadores.",
-      "text_02": "Sou responsável pelo desenvolvimento da Agenda Fácil, sistema de agendamento de serviços para empresas de qualquer segmento.",
-      "text_03": "Além disso estou sempre buscando novos desafios e oportunidades para aplicar meus conhecimentos e desenvolver minhas habilidades como programador."
+      "text_01": "Me chamo Rômulo Oliveira e iniciei minha carreira na programação em 2020. Desde então, venho me especializando no desenvolvimento de tecnologias web, com foco em back-end e front-end.",
+      "text_02": "Sou responsável pelo desenvolvimento do Marvel Snap Brasil, um portal brasileiro do game de cartas Marvel Snap. Além disso, tenho experiência em desenvolvimento de sistemas de controle financeiro pessoal, agendamento de serviços e sistemas de chat em tempo real.",
+      "text_03": "Estou sempre em busca de novos desafios e oportunidades para aprender e crescer profissionalmente. Meu objetivo é contribuir para projetos inovadores e desafiadores, onde possa aplicar meus conhecimentos e habilidades para criar soluções eficientes e de alta qualidade."
     }
   },
   "footer": {

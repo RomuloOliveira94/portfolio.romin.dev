@@ -36,6 +36,12 @@
           "title": "Software Developer",
           "company": "Hahn-Software",
           "description": "Development and maintenance of a driver's license registration and management system for the German government. Actively contributed to the design, development, and continuous refinement of innovative solutions for the project. My tasks also include code reviews, testing, and creating detailed documentation to ensure quality and usability."
+        },
+        {
+          "date": "2020-2022",
+          "title": "Software Developer",
+          "company": "Freelancer",
+          "description": "Development of personal financial control systems, service scheduling, and real-time chat systems. My work involves implementing new features, bug fixes, and continuous improvements. In addition, I collaborate with the team to ensure the efficiency and scalability of the applications."
         }
       ]
     },
@@ -115,9 +121,9 @@
     },
     "about": {
       "title": "About me",
-      "text_01": "My name is Rômulo Oliveira and I started my programming career in 2021. Currently, I work as a freelance software developer with a focus on business solutions.",
-      "text_02": "I am responsible for the development of Agenda Fácil, a service scheduling system for businesses in any industry.",
-      "text_03": "In addition, I am always seeking new challenges and opportunities to apply my knowledge and develop my skills as a programmer."
+      "text_01": "My name is Rômulo Oliveira and I started my programming career in 2020. Since then, I have been specializing in web technology development, focusing on both back-end and front-end.",
+      "text_02": "I am responsible for the development of Marvel Snap Brasil, a Brazilian portal for the Marvel Snap card game. Additionally, I have experience in developing personal financial control systems, service scheduling systems, and real-time chat systems.",
+      "text_03": "I am always looking for new challenges and opportunities to learn and grow professionally. My goal is to contribute to innovative and challenging projects where I can apply my knowledge and skills to create efficient and high-quality solutions."
     }
   },
   "footer": {

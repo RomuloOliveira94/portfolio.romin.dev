@@ -32,10 +32,16 @@
           "description": "Desarrollo de backend en soluciones fiscales utilizando Ruby on Rails. Desarrollo y mantenimiento de sistemas integrados para varios municipios, optimizando la gestión de impuestos municipales. Mi trabajo implica la implementación de nuevas características, corrección de errores y mejoras continuas. Además, colaboro con el equipo para garantizar la eficiencia y escalabilidad de las aplicaciones."
         },
         {
-          "date": "Actualmente...",
+          "date": "2022-2024",
           "title": "Desarrollador de Software",
           "company": "Hahn-Software",
           "description": "Desarrollo y mantenimiento de un sistema de registro y gestión de licencias de conducir para el gobierno alemán. Contribuí activamente al diseño, desarrollo y mejora continua de soluciones innovadoras para el proyecto. Mis tareas también incluyen revisiones de código, pruebas y creación de documentación detallada para garantizar calidad y usabilidad."
+        },
+        {
+          "date": "2020-2022",
+          "title": "Desarrollador de Software",
+          "company": "Freelancer",
+          "description": "Desarrollo de sistemas de control financiero personal, programación de servicios y sistemas de chat en tiempo real. Mi trabajo implica la implementación de nuevas características, corrección de errores y mejoras continuas. Además, colaboro con el equipo para garantizar la eficiencia y escalabilidad de las aplicaciones."
         }
       ]
     },
@@ -115,9 +121,9 @@
     },
     "about": {
       "title": "Sobre mí",
-      "text_01": "Mi nombre es Rômulo Oliveira y comencé mi carrera en programación en 2021. Actualmente trabajo como desarrollador de software freelance con enfoque empresarial.",
-      "text_02": "Soy responsable del desarrollo de <a href='#'>Cardápio Popular</a> y <a href='#'>Agenda Popular</a>, el primero es un sistema de menú digital para restaurantes que cuenta con un panel de gestión de pedidos y el segundo es un sistema de reserva de servicios para empresas de cualquier sector.",
-      "text_03": "Además, siempre estoy buscando nuevos desafíos y oportunidades para aplicar mis conocimientos y desarrollar mis habilidades como programador."
+      "text_01": "Me llamo Rômulo Oliveira y comencé mi carrera en programación en 2020. Desde entonces, me he especializado en el desarrollo de tecnologías web, con un enfoque en back-end y front-end.",
+      "text_02": "Soy responsable del desarrollo de Marvel Snap Brasil, un portal brasileño del juego de cartas Marvel Snap. Además, tengo experiencia en el desarrollo de sistemas de control financiero personal, programación de servicios y sistemas de chat en tiempo real.",
+      "text_03": "Siempre estoy en busca de nuevos desafíos y oportunidades para aprender y crecer profesionalmente. Mi objetivo es contribuir a proyectos innovadores y desafiantes, donde pueda aplicar mis conocimientos y habilidades para crear soluciones eficientes y de alta calidad."
     }
   },
   "footer": {
