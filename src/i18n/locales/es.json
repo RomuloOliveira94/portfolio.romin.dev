@@ -27,26 +27,29 @@
       "experiences": [
         {
           "date": "2024 - Presente",
-          "title": "Desarrollador Full Stack",
+          "title": "Desarrollador Backend",
           "company": "Intersol Soluciones Web",
-          "description": "Desarrollo de backend en soluciones fiscales utilizando Ruby on Rails. Desarrollo y mantenimiento de sistemas integrados para varios municipios, optimizando la gestión de impuestos municipales. Mi trabajo implica la implementación de nuevas características, corrección de errores y mejoras continuas. Además, colaboro con el equipo para garantizar la eficiencia y escalabilidad de las aplicaciones."
+          "description": "Desarrollo de backend en soluciones fiscales utilizando Ruby on Rails. Desarrollo y mantenimiento de sistemas integrados para varios municipios, optimizando la gestión de impuestos municipales. Mi trabajo implica la implementación de nuevas características, corrección de errores y mejoras continuas. Además, colaboro con el equipo para garantizar la eficiencia y escalabilidad de las aplicaciones.",
+          "techs": "Ruby on Rails, PostgreSQL, Docker, Git, BitBucket."
         },
         {
           "date": "2022-2024",
           "title": "Desarrollador de Software",
           "company": "Hahn-Software",
-          "description": "Desarrollo y mantenimiento de un sistema de registro y gestión de licencias de conducir para el gobierno alemán. Contribuí activamente al diseño, desarrollo y mejora continua de soluciones innovadoras para el proyecto. Mis tareas también incluyen revisiones de código, pruebas y creación de documentación detallada para garantizar calidad y usabilidad."
+          "description": "Desarrollo y mantenimiento de un sistema de registro y gestión de licencias de conducir para el gobierno alemán. Contribuí activamente al diseño, desarrollo y mejora continua de soluciones innovadoras para el proyecto. Mis tareas también incluyen revisiones de código, pruebas y creación de documentación detallada para garantizar calidad y usabilidad.",
+          "techs": "Typescript, Javascript, Vue.js, Bulma, C#, .NET, Docker, Kubernetes."
         },
         {
           "date": "2020-2022",
-          "title": "Desarrollador de Software",
-          "company": "Freelancer",
-          "description": "Desarrollo de sistemas de control financiero personal, programación de servicios y sistemas de chat en tiempo real. Mi trabajo implica la implementación de nuevas características, corrección de errores y mejoras continuas. Además, colaboro con el equipo para garantizar la eficiencia y escalabilidad de las aplicaciones."
+          "title": "Stark Software",
+          "company": "Desarrollador Full Stack",
+          "description": "Desarrollé proyectos utilizando tecnologías y técnicas modernas de la web, incluyendo HTML5, CSS3, JavaScript, PHP y Ruby. Fui responsable de la integración de APIs, y del desarrollo y mantenimiento de sistemas completos hechos en Laravel y Ruby on Rails, y trabajé en sistemas SaaS, utilizando Next.js. También realicé revisiones de código para asegurar la calidad del producto y apliqué metodologías ágiles en los proyectos que desarrollé.",
+          "techs": "Javascript, Typescript, Ruby, PHP, Ruby on Rails, Laravel, Next.js, Nuxt.js, Tailwind, Typescript, Mysql, PostgreSQL, SQlite, Docker, AWS, Git, Gitlab, Github."
         }
       ]
     },
     "projects": {
-      "title": "Proyectos",
+      "title": "Proyectos Personales",
       "projects": [
         {
           "title": "Marvel Snap Brasil - Portal Brasileiro de Marvel Snap",
