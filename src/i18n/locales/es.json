@@ -12,7 +12,7 @@
   },
   "hero": {
     "title": "Hola, soy Rômulo Oliveira",
-    "text": "+4 años de experiencia. Desarrollador de Software de Fortaleza, Brasil. Especializado en el desarrollo de tecnologías web.",
+    "text": "+5 años de experiencia. Desarrollador de Software de Fortaleza, Brasil. Especializado en el desarrollo de tecnologías web.",
     "badge": "Disponible para Proyectos",
     "links": {
       "contact": "Contacto",
@@ -51,6 +51,23 @@
     "projects": {
       "title": "Proyectos Personales",
       "projects": [
+        {
+          "title": "Fácim Gestión - WebApp con PWA de gestión financiera de pequeños negocios",
+          "description": "Fácim Gestión es una aplicación web de gestión financiera para pequeños negocios. Permite la gestión eficiente de ingresos, gastos y también tiene un módulo de fijación de precios de productos.",
+          "link": "https://facim-gestao.fly.dev",
+          "image": "facim-gestao.png",
+          "tags": [
+            "RUBY",
+            "RAILS",
+            "TAILWIND",
+            "STIMULUS",
+            "HOTWIRE",
+            "SIDEKIQ",
+            "SQLITE",
+            "DOCKER",
+            "GHACTIONS"
+          ]
+        },
         {
           "title": "Marvel Snap Brasil - Portal Brasileiro de Marvel Snap",
           "description": "Marvel Snap Brasil es un portal brasileño de Marvel Snap. Con él, puedes acceder a noticias, cartas, mazos, torneos, análisis de metajuego, eventos y mucho más.",
@@ -124,9 +141,9 @@
     },
     "about": {
       "title": "Sobre mí",
-      "text_01": "Me llamo Rômulo Oliveira y comencé mi carrera en programación en 2020. Desde entonces, me he especializado en el desarrollo de tecnologías web, con un enfoque en back-end y front-end.",
-      "text_02": "Soy responsable del desarrollo de Marvel Snap Brasil, un portal brasileño del juego de cartas Marvel Snap. Además, tengo experiencia en el desarrollo de sistemas de control financiero personal, programación de servicios y sistemas de chat en tiempo real.",
-      "text_03": "Siempre estoy en busca de nuevos desafíos y oportunidades para aprender y crecer profesionalmente. Mi objetivo es contribuir a proyectos innovadores y desafiantes, donde pueda aplicar mis conocimientos y habilidades para crear soluciones eficientes y de alta calidad."
+      "text_01": "Me llamo Rômulo Oliveira y comencé mi carrera en programación a finales de 2019. Desde entonces, me he especializado en el desarrollo de tecnologías web, con enfoque en back-end y front-end (full stack).",
+      "text_02": "Tengo experiencia en el desarrollo de sistemas robustos y escalables. En mi trayectoria, he trabajado en sistemas que van desde simples aplicaciones de control financiero personal hasta sistemas de gestión tributaria municipal con miles de solicitudes y una gran cantidad de datos.",
+      "text_03": "Siempre estoy en busca de nuevos desafíos. Mi objetivo es contribuir a proyectos innovadores y desafiantes, donde pueda aplicar mis conocimientos y habilidades para crear soluciones eficientes y de alta calidad."
     }
   },
   "footer": {

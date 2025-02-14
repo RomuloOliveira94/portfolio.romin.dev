@@ -32,6 +32,7 @@ import Mysql from "./icons/Mysql.astro";
 import Sidekiq from "./icons/Sidekiq.astro";
 import Hotwire from "./icons/Hotwire.astro";
 import Stimulus from "./icons/Stimulus.astro";
+import Sqlite from "./icons/Sqlite.astro";
 
 const { currentLocale } = Astro;
 const t = getI18N({ currentLocale });
@@ -190,6 +191,11 @@ const TAGS = {
     class: "bg-white text-black",
     icon: Stimulus
   },
+  SQLITE: {
+    name: "SQLite",
+    class: "bg-white text-black",
+    icon: Sqlite
+  }
 } 
 ---
 

@@ -12,7 +12,7 @@
   },
   "hero": {
     "title": "Olá, sou Rômulo Oliveira",
-    "text": "+4 anos de experiência. Desenvolvedor de Software de Fortaleza, Brasil. Especializado no desenvolvimento de tecnologias web.",
+    "text": "+5 anos de experiência. Desenvolvedor de Software de Fortaleza, Brasil. Especializado no desenvolvimento de tecnologias web.",
     "badge": "Disponível para Projetos",
     "links": {
       "contact": "Contato",
@@ -52,6 +52,41 @@
       "title": "Projetos Pessoais",
       "projects": [
         {
+          "title": "Fácim Gestão - WepApp com PWA de gestão financeira de pequenos negócios",
+          "description": "Fácim Gestão é um aplicativo web de gestão financeira para pequenos negócios. Ele permite o gerenciamento eficiente de receitas, despesas e possui também um módulo de precificação de produtos.",
+          "link": "https://facim-gestao.fly.dev",
+          "image": "facim-gestao.png",
+          "tags": [
+            "RUBY",
+            "RAILS",
+            "TAILWIND",
+            "STIMULUS",
+            "HOTWIRE",
+            "SIDEKIQ",
+            "SQLITE",
+            "DOCKER",
+            "GHACTIONS"
+          ]
+        },
+        {
+          "title": "Controla Fácil - Sistema de controle financeiro pessoal",
+          "description": "Controla Fácil é um sistema de controle financeiro pessoal. Com ele é possível gerenciar receitas, despesas, categorias e contas de forma simples e eficiente.",
+          "link": "https://controlafacil.starksoftware.tech/",
+          "image": "controla-facil.png",
+          "tags": [
+            "RUBY",
+            "RAILS",
+            "TAILWIND",
+            "STIMULUS",
+            "HOTWIRE",
+            "SIDEKIQ",
+            "MYSQL",
+            "DOCKER",
+            "GHACTIONS"
+          ],
+          "github": "https://github.com/RomuloOliveira94/controla-facil"
+        },
+        {
           "title": "Marvel Snap Brasil - Portal Brasileiro de Marvel Snap",
           "description": "Marvel Snap Brasil é um portal brasileiro de Marvel Snap. Com ele é possível acessar notícias, cartas, decks, torneios, analise de metagame, eventos e muito mais.",
           "link": "https://marvelsnapbrasil.com.br",
@@ -85,22 +120,6 @@
           "github": ""
         },
         {
-          "title": "Controla Fácil - Sistema de controle financeiro pessoal",
-          "description": "Controla Fácil é um sistema de controle financeiro pessoal. Com ele é possível gerenciar receitas, despesas, categorias e contas de forma simples e eficiente.",
-          "link": "https://controlafacil.starksoftware.tech/",
-          "image": "controla-facil.png",
-          "tags": [
-            "RUBY",
-            "RAILS",
-            "TAILWIND",
-            "STIMULUS",
-            "HOTWIRE",
-            "SIDEKIQ",
-            "MYSQL"
-          ],
-          "github": "https://github.com/RomuloOliveira94/controla-facil"
-        },
-        {
           "title": "Papasand's Restaurant - Sistema multiusuário de restaurante com sistema de pedidos e carrinho",
           "description": "Papasand's Restaurant é um sistema de restaurante multiusuário com sistema de pedidos e carrinho. Com ele é possível gerenciar pedidos, produtos e clientes de forma simples e eficiente.",
           "link": "https://papasand-s.web.app/",
@@ -132,9 +151,9 @@
     },
     "about": {
       "title": "Sobre mim",
-      "text_01": "Me chamo Rômulo Oliveira e iniciei minha carreira na programação em 2020. Desde então, venho me especializando no desenvolvimento de tecnologias web, com foco em back-end e front-end.",
-      "text_02": "Sou responsável pelo desenvolvimento do Marvel Snap Brasil, um portal brasileiro do game de cartas Marvel Snap. Além disso, tenho experiência em desenvolvimento de sistemas de controle financeiro pessoal, agendamento de serviços e sistemas de chat em tempo real.",
-      "text_03": "Estou sempre em busca de novos desafios e oportunidades para aprender e crescer profissionalmente. Meu objetivo é contribuir para projetos inovadores e desafiadores, onde possa aplicar meus conhecimentos e habilidades para criar soluções eficientes e de alta qualidade."
+      "text_01": "Me chamo Rômulo Oliveira e iniciei minha carreira na programação no final de 2019. Desde então, venho me especializando no desenvolvimento de tecnologias web, com foco em back-end e front-end (full stack).",
+      "text_02": "Tenho experiência em desenvolvimento de sistemas robustos e escaláveis. Em minha jornada, já trabalhei em sistemas que vão desde simples apps de controle financeiro pessoal até sistemas de gestão tributária municipal com milhares de requisições e uma grande massa de dados.",
+      "text_03": "Estou sempre em busca de novos desafios. Meu objetivo é contribuir para projetos inovadores e desafiadores, onde possa aplicar meus conhecimentos e habilidades para criar soluções eficientes e de alta qualidade."
     }
   },
   "footer": {
