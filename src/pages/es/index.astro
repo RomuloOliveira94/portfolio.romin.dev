@@ -32,6 +32,16 @@ const t = getI18N({ currentLocale });
       </h2>
       <Experience />
     </SectionContainer>
+    
+    <SectionContainer id="sobre">
+      <h2
+        class="flex items-center mb-6 text-3xl font-semibold gap-x-8 text-black/80 dark:text-white"
+      >
+        <ProfileCheck class="size-8" />
+        {t.sections.about.title}
+      </h2>
+      <AboutMe />
+    </SectionContainer>
 
     <SectionContainer id="projetos">
       <h2
@@ -43,14 +53,5 @@ const t = getI18N({ currentLocale });
       <Projects />
     </SectionContainer>
 
-    <SectionContainer id="sobre">
-      <h2
-        class="flex items-center mb-6 text-3xl font-semibold gap-x-8 text-black/80 dark:text-white"
-      >
-        <ProfileCheck class="size-8" />
-        {t.sections.about.title}
-      </h2>
-      <AboutMe />
-    </SectionContainer>
   </div>
 </Layout>
